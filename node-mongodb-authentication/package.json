@@ -1,0 +1,26 @@
+{
+  "name": "node-mongo-authentication",
+  "version": "1.0.0",
+  "description": "Authentication with node and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "watch": "nodemon app && mongod"
+  },
+  "keywords": [
+    "Authentication",
+    "NodeJS",
+    "MongoDB"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.1",
+    "nodemon": "^1.17.5"
+  }
+}
