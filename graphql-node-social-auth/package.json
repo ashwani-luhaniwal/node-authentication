@@ -1,0 +1,27 @@
+{
+  "name": "graphql-node-social-auth",
+  "version": "1.0.0",
+  "description": "Social authentication using graphql, apollo and nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Authentication_using_graphql_nodejs_apollo"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.3.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-facebook-token": "^3.3.0",
+    "passport-google-token": "^0.1.2",
+    "postman": "^0.2.0"
+  }
+}
